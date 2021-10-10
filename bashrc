@@ -1,6 +1,4 @@
-# Termux Banner
-# Banner by MarMu
-# _____Do Not Copy Or Modify_____
+
 
 -command_not_found_handle() {
 	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
@@ -45,6 +43,5 @@ alias dt='rm -rf'
 
 
 
-sleep 2
-exit
-done
+
+
