@@ -27,3 +27,4 @@ figlet -f big "   $logo" | lolcat
 echo " Done"
 
 sleep 1
+
