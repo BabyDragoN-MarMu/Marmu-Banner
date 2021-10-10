@@ -1,0 +1,29 @@
+#!/bin/sh
+clear
+#colour
+R='\033[1;31m'
+
+B='\033[0;34m'
+
+C='\033[0;36m'
+
+G='\033[1;32m'
+
+W='\033[1;37m'
+
+Y='\033[0;33m'
+
+Y2='\033[1;33m'
+
+cd $dir
+gem install lolcat
+rm -rf $dir/.bashrc
+clear
+cd
+#read logo
+read -p " Put Your Name Logo : " logo
+sed "s/marmu/$logo/g" $dir/marmu-banner > $dir/.bashrc
+figlet -f big "   $logo" | lolcat
+echo " Done"
+
+sleep 1
