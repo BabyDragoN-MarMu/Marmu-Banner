@@ -1,16 +1,26 @@
--command_not_found_handle() {
-	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
-}
+#Creation By MARMU
+#Do not Copy & Modify
+#===================================#
 clear
+
 red='\e[1;31m'
+
 green='\e[1;32m'
+
 yellow='\e[1;33m'
+
 blue='\e[1;34m'
+
 purple='\e[1;35m'
+
 cyan='\e[1;36m'
+
 white='\e[1;37m'
+
 #echo -e $red
+
 #echo -e "hack"
+
 #echo -e $green
 #echo -e "((__---------__)) $green          New          $green ((__---------__))"
 #echo -e "   (_)$red O O $green(_)                               (_)$red O O $green(_)"
@@ -41,9 +51,10 @@ alias ifc='ifconfig wlan0'
 alias g='git clone'
 alias pk='pkg update && pkg upgrade'
 alias n='nano'
-alias l='ls -f'
-
-
-
-
-
+alias l='ls -f
+echo'
+if
+-command_not_found_handle() {
+	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+}
+fi
