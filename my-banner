@@ -13,13 +13,13 @@ cd $dir
 gem install lolcat
 chmod 777 $dir/.bashrc
 rm -rf $dir/.bashrc
-wget https://raw.githubusercontent.com/BabyDragoN-MarMu/bashrc/master/my-banner
+wget https://raw.githubusercontent.com/BabyDragoN-MarMu/bashrc/master/Marmu-Banner
 clear
 cd
 #read logo
 read -p " Put Your Name Logo : " logo
-sed "s/marmu/$logo/g" $dir/my-banner > $dir/.bashrc
+sed "s/marmu/$logo/g" $dir/Marmu-Banner > $dir/.bashrc
 figlet -f big "   $logo" | lolcat
 echo " Done"
-rm -rf $dir/my-banner
+rm -rf $dir/Marmu-Banner
 sleep 1
