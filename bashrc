@@ -14,12 +14,6 @@ white='\e[1;37m'
 #echo -e $red
 #echo -e "hack"
 #echo -e $green
-#echo -e "((__---------__)) $green          New          $green ((__---------__))"
-#echo -e $red
-#echo
-#echo -e "    |||||||||             $green  FOR  $red             |||||||||"
-#echo
-#echo
 #echo -e $yellow" ---------------($red  T E R M U X  M Y A N M A R $yellow)---------------"
 #echo -e $yellow
 figlet -f big "     MarMu" | lolcat
